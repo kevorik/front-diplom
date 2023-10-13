@@ -1,0 +1,147 @@
+.modal {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.modalTitle {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 37px;
+  line-height: 58px;
+  text-align: center;
+  margin-bottom: 15px;
+  color: #1d1d1d;
+}
+
+.modalInput {
+  background: #ffffff;
+  border: 1px solid #93b8d9;
+  border-radius: 100px !important;
+  height: 48px;
+}
+
+.modal button {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  border: none !important;
+  color: #ffffff;
+  background: #136eef;
+}
+
+.modalText {
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #001732;
+  display: block;
+  margin-top: 15px;
+}
+
+.textArea {
+  resize: none;
+  background: #ffffff;
+  border: 1px solid #93b8d9;
+  border-radius: 14px !important;
+  min-height: 169px !important;
+}
+
+.modalText:hover {
+  color: #136eef;
+}
+
+.modalThanks {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 54px 37px;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalThanks p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #001732;
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+
+.modalThanks img {
+  margin-top: 15px;
+}
+
+.modalOrder {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0px;
+  justify-content: center;
+  align-items: center;
+  max-width: 423px;
+  margin: 0 auto;
+}
+
+.orderTitle {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 58px;
+  color: #001732;
+}
+
+.modalOrder span {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #001732;
+  margin: 20px 0 15px;
+}
+
+.modalOrder p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #001732;
+  max-width: 377px;
+  margin: 0;
+}
+
+.modalStatus {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.formItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.radioTitle span{
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #082f54;
+}

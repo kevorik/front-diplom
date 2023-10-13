@@ -1,0 +1,64 @@
+.catContainer {
+  max-width: 800px;
+  max-height: 700px;
+  overflow-y: scroll;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.catContainer h3 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #001732;
+  margin-bottom: 15px;
+}
+
+.catContainer p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #001732;
+  margin-bottom: 8px;
+}
+
+.catContainer p:hover {
+  color: #136eef !important;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.catContainer p:focus {
+  text-decoration: underline #136eef !important;
+}
+.catalog {
+  position: relative;
+}
+
+.catalog::after {
+  content: "";
+  position: absolute;
+  bottom: 4px;
+  right: -15px;
+  border: 5px solid transparent;
+  border-top: 6px solid #136eef;
+}
+
+.blue {
+  color: #001732;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.blue:hover {
+  color: #136eef !important;
+  cursor: pointer;
+}
+
+.white {
+  color: #fff;
+}
